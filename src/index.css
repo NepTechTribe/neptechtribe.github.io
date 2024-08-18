@@ -5,6 +5,10 @@
     --h2-color: #1272A5;
     --h1-color: #212EA0;
 }
+svg{
+    height: 25px;
+    width: 30px;
+}
 .title {
     color: var(--h1-color);
 }

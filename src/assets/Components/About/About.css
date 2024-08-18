@@ -12,12 +12,12 @@
 }
 
 .about-right {
-    flex-basis: 40%
+    flex-basis: 46%;
 }
 
 .about-img {
     width: 100%;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .play-icon {

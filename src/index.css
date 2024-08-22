@@ -15,7 +15,7 @@ svg{
 h2{
     color: var(--h2-color)
 }
-.campus {
+.album {
     margin: 80px auto;
     width: 90%;
     text-align: center
@@ -59,7 +59,9 @@ h2{
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
-    background: #212ea0
+    background: #212ea0;
+    color: #fff;
+    
 }
 
 .back-btn {

@@ -37,7 +37,8 @@
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
-    background: #212ea0
+    background: #212ea0;
+    color: #fff;
 }
 
 .back-btn {

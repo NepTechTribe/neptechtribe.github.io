@@ -6,6 +6,9 @@ import Title from './assets/Components/Title/Title'
 import About from './assets/Components/About/About'
 import Upcoming from './assets/Components/Upcoming/Upcoming'
 import Glimpses from './assets/Components/Glimpses/Glimpses'
+import Testimonial from './assets/Components/Testimonials/Testimonial'
+import Testimonials_2 from './assets/Components/Testimonials/Testimonials_2'
+import Contact from './assets/Components/Contact/Contact'
 const App = () => {
   return (
     <div>
@@ -21,7 +24,13 @@ const App = () => {
         <Title title='Glimpses' subtitle='sneekpeek from past events'></Title>
         <Glimpses>        </Glimpses>
         <Title title='TESTIMONIALS' subtitle='What student says'></Title>
-
+        <Testimonial></Testimonial>
+        <Title title='COMMUNITIES AND ORGANIZATIONS' subtitle='Partnership and Collaboration With'></Title>
+        <Glimpses></Glimpses>
+        <Title title='TESTIMONIALS' subtitle='From Board and Advisors'></Title>
+        <Testimonials_2></Testimonials_2>
+        <Title title='LEAVE A FEEDBACK' subtitle='Suggestions and Plans'></Title>
+        <Contact></Contact>
       </div>
     </div>
   )

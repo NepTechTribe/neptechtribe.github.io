@@ -25,12 +25,13 @@ nav ul li {
 }
 
 .dark-nav {
-    /* background: #212ea0; */
-    transition: .5s
+    background: #212ea0;
+    transition: .5s;
+    color: #fff;
 }
 
 .menu-icon {
-    display: none
+    display: none;
 }
 
 @media (max-width: 1000px) {

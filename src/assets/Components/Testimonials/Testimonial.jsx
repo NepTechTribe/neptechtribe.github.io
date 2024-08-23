@@ -19,8 +19,8 @@ const Testimonial = () => {
     }
   return (
     <div className='testimonials'>
-      <i class="fa-solid fa-arrow-right next-btn" onClick={slideForward}></i>
-      <i class="fa-solid fa-arrow-left back-btn" onClick={slideBackward}></i>
+      <i className="fa-solid fa-arrow-right next-btn" onClick={slideForward}></i>
+      <i className="fa-solid fa-arrow-left back-btn" onClick={slideBackward}></i>
       <div className='slider'>
         <ul ref={slider}>
           <Sub_testimonial

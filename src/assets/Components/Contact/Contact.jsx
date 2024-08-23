@@ -33,7 +33,7 @@ const Contact = () => {
                     {/* </iframe> */}
                     <textarea id="h-captcha-response-0sxzfpm9akol" name="h-captcha-response" style={{ display: 'none' }}></textarea>
                 </form>
-                <button type="submit" className="btn dark-btn submit-btn">Submit now &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                <button type="submit" className="btn dark-btn submit-btn">Submit now &nbsp;<i className="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
     );

@@ -1,4 +1,6 @@
 import React from 'react'
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Navbar from './assets/Components/Navbar/Navbar'
 import Hero from './assets/Components/Hero/Hero'
 import Programs from './assets/Components/Programs/Programs'
@@ -11,6 +13,7 @@ import Testimonials_2 from './assets/Components/Testimonials/Testimonials_2'
 import Contact from './assets/Components/Contact/Contact'
 const App = () => {
   return (
+    <BrowserRouter>
     <div>
       <Navbar></Navbar>
       <Hero></Hero>
@@ -33,6 +36,7 @@ const App = () => {
         <Contact></Contact>
       </div>
     </div>
+    </BrowserRouter>
   )
 }
 

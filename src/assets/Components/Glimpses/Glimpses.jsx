@@ -3,22 +3,22 @@ import './Glimpses.css'
 import poster from "../nposter.png"
 const Glimpses = () => {
     return (
-        <div class="album">
-            <div class="gallery">
+        <div className="album" id='album'>
+            <div className="gallery" id='gallery'>
                 <img src={poster} alt="" />
                 <img src={poster} alt="" />
                 <img src={poster} alt="" />
                 <img src={poster} alt="" />
                 
             </div>
-            <div class="gallery">
+            <div className="gallery">
                 <img src={poster} alt="" />
                 <img src={poster} alt="" />
                 <img src={poster} alt="" />
                 <img src={poster} alt="" />
               
             </div>
-            <button class="btn dark-btn">See more here &nbsp;<i class="fa-solid fa-arrow-right"></i> </button>
+            <button className="btn dark-btn">See more here &nbsp;<i className="fa-solid fa-arrow-right"></i> </button>
         </div>
     )
 }

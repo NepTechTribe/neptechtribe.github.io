@@ -11,6 +11,7 @@ import Glimpses from './assets/Components/Glimpses/Glimpses'
 import Testimonial from './assets/Components/Testimonials/Testimonial'
 import Testimonials_2 from './assets/Components/Testimonials/Testimonials_2'
 import Contact from './assets/Components/Contact/Contact'
+import Collabs from './assets/Components/Collabs/Collabs';
 const App = () => {
   return (
     <BrowserRouter>
@@ -29,7 +30,7 @@ const App = () => {
         {/* <Title title='TESTIMONIALS' subtitle='What student says'></Title> */}
         {/* <Testimonial></Testimonial> */}
         <Title title='COMMUNITIES AND ORGANIZATIONS' subtitle='Partnership and Collaboration With'></Title>
-        <Glimpses></Glimpses>
+        <Collabs></Collabs>
         <Title title='TESTIMONIALS' subtitle='From Board and Advisors'></Title>
         <Testimonials_2></Testimonials_2>
         <Title title='LEAVE A FEEDBACK' subtitle='Suggestions and Plans'></Title>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Glimpses.css'
 import poster from "../nposter.png"
+import amc from '../amc.jpg'
 const Glimpses = () => {
     return (
         <div className="album" id='album'>

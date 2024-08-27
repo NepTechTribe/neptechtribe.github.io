@@ -11,11 +11,11 @@ const About = () => {
             <div className="about-right">
                 <h2>Fostering Collaborative & Positive Environment</h2>
                 <br/>
-                <p>Neptech Tribe is a dynamic non-specialist organization established by a group of practical, knowledgeable and visionary young professionals with an interest in practice and education. The primary goal is to provide comprehensive digital electronics programs to organizations that include operators and equipment from a variety of backgrounds requiring irrigation equipment. Yaso gerer, neptech trib le neid seip bheka personalharolai drut rupa vikas va digital worlda garn r successful hun able banaunch.
+                <p>NepTech Tribe is a forward-thinking, non-profit organization founded by a group of passionate and visionary young professionals with a strong commitment to digital education and empowerment. Our primary mission is to deliver comprehensive digital literacy and technology programs to diverse organizations, equipping participants with the essential skills needed to thrive in the digital era.
 
-Neptech Tribe's philosophy is to believe in the central focus of knowledge, good resources, strong support, innovation, collaboration and collaborative environment, and fast-forward. The organization is a community where members live and participate freely in thought-provoking activities and contribute to collective development. Through this positive and inclusive environment that encourages creativity and innovation, we empower our members to drive meaningful change within and outside the community.
+At NepTech Tribe, we believe that knowledge, innovation, and collaboration are the cornerstones of success. We foster a vibrant community where members freely engage in thought-provoking activities, contribute to collective development, and are empowered to drive meaningful change both within and beyond our community. Through workshops, traditional training sessions, and skill development initiatives, we offer hands-on practical training that cultivates critical thinking and prepares individuals to become active contributors to the digital economy.
 
-Workshop, Traditional Training Sessions, March, Neptech Tribe Le Personalharoge Nayan Practical Training Sessions, Kritikta Soch Skill Development Group and Digital Economy Active Contributing Artist Bann Sikounch. With technology that is affordable and affordable, Neptech Tribal Digital is shaping the future by empowering digital leaders.</p>
+With a focus on making technology accessible and affordable, NepTech Tribe is shaping the future by empowering the next generation of digital leaders. Our inclusive and supportive environment encourages creativity and innovation, ensuring that our members are well-equipped to succeed in an ever-evolving digital landscape.</p>
             </div>
         </div>
     )

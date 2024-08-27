@@ -26,8 +26,8 @@ const App = () => {
         <Upcoming></Upcoming>
         <Title title='Glimpses' subtitle='sneekpeek from past events'></Title>
         <Glimpses>        </Glimpses>
-        <Title title='TESTIMONIALS' subtitle='What student says'></Title>
-        <Testimonial></Testimonial>
+        {/* <Title title='TESTIMONIALS' subtitle='What student says'></Title> */}
+        {/* <Testimonial></Testimonial> */}
         <Title title='COMMUNITIES AND ORGANIZATIONS' subtitle='Partnership and Collaboration With'></Title>
         <Glimpses></Glimpses>
         <Title title='TESTIMONIALS' subtitle='From Board and Advisors'></Title>

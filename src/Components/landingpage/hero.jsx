@@ -1,9 +1,7 @@
-import React from 'react'
-import './Hero.css'
-const Hero = () => {
-    return (
-
-        <div className="hero" id='hero'>
+function Hero(){
+    return(
+        <>
+        <div className="hero">
             <div className='container'>
             <div className="hero-text">
                 <h1>Leaders are those who empower others.</h1>
@@ -13,7 +11,8 @@ const Hero = () => {
                  </button>
             </div></div>
         </div>
+        </>
     )
 }
 
-export default Hero
+export default Hero;

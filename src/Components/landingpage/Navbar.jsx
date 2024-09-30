@@ -5,22 +5,21 @@ import Container from 'react-bootstrap/Container';
 const Navbar = () => {
     const [sticky, setSticky] = useState(false);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            window.scrollY > 50 ? setSticky(true) : setSticky(false);
-        };
+   
+  useEffect(() => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 25);
+    };
 
-        window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
-        // Cleanup the event listener on component unmount
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     return (
+        <nav className={`Navbar ${sticky ? 'sticky' : ''}`}>
         <Container>
-        <nav className={`Navbar ${sticky ? 'Navbar-dark' : ''}`}>
+        <div className="Navbar-container">
             <img src={fullogo} alt="NepTech Tribe Logo" className="Navbar-logo" />
             <ul className="Navbar-menu">
                 <li><Link to="/" className='link-default' >Home</Link></li>
@@ -29,8 +28,9 @@ const Navbar = () => {
                 <li><Link to="/events" className='link-default'> Upcoming Events</Link></li>
                 <li><Link to="/contact" className='link-default' >Contact Us</Link></li>
             </ul>
-        </nav>
+        </div>
         </Container>
+        </nav>
     );
 };
 

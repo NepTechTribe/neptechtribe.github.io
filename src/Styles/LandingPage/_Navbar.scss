@@ -1,37 +1,39 @@
-.Navbar{
-    width: 100%;
+.Navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 100;
+  font-family: $font;
+  transition: 0.5s;
+  &.sticky {
+    background: #212ea0;
+    color: #fff;
+    top: 0;
+  }
+  &-container {
     padding: 1.25rem 0rem;
-    background: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 100;
-    font-family: $font;
-    &-dark{
-        background: #212ea0;
-        transition: .5s;
-        color: #fff;  
-        // top: 0;
-        // left: 0;
-        // position: fixed;
+  }
+  &-logo {
+    width: 11rem;
+  }
+  &-menu {
+    & li {
+      display: inline-block;
+      list-style: none;
+      margin: 5px 20px;
+      font-size: 1rem;
     }
-    &-logo{
-        width: 11rem; 
-    }
-    &-menu{
-& li {
-    display: inline-block;
-    list-style: none;
-    margin: 5px 20px;
-    font-size: 1rem;
-}
-    }
+  }
 }
 
-.link-default{
-    color: inherit;         
-    font-size: inherit;     
-    text-decoration: inherit;
+.link-default {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
 }
-
-

@@ -1,15 +1,14 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .Navbar {
   width: 100%;
+  padding: 1.25rem 0rem;
   background: #fff;
-  padding: 4px 0;
-  position: fixed;
-  top: 0;
-  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 100;
+  font-family: "Poppins", sans-serif;
 }
 .Navbar-dark {
   background: #212ea0;
@@ -26,31 +25,10 @@
   font-size: 1rem;
 }
 
-nav {
-  width: 100%;
-  /* color: #fff; */
-  /* background-color: #212EA0; */
-  /* background-color: #212EA0; */
-  background: #fff;
-  padding: 4px 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10;
-}
-
-.logo {
-  width: 180px;
-}
-
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 5px 20px;
-  font-size: 16px;
+.link-default {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
 }
 
 .menu-icon {

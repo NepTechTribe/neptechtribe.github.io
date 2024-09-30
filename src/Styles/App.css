@@ -40,7 +40,7 @@
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(8, 0, 58, 0.7019607843), rgba(8, 0, 58, 0.7019607843)), url(/herobg.png);
+  background: linear-gradient(rgba(60, 55, 94, 0.7019607843), rgba(70, 63, 111, 0.7019607843)), url(/herobg.png);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -49,18 +49,38 @@
   justify-content: center;
 }
 
+.Button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.herobutton {
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background-color: #000080;
+  border: none;
+}
+.herobutton:hover {
+  color: #000080;
+  background-color: white;
+}
+
 .Head {
   text-align: center;
+  color: white;
 }
 .Head-title {
   text-align: center;
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
-  color: white;
 }
 .Head-description {
   text-align: center;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
-  color: white;
 }/*# sourceMappingURL=App.css.map */

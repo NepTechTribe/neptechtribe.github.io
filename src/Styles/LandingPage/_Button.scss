@@ -1,3 +1,20 @@
-.herobutton{
-    // display: none;
+.Button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.herobutton {
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-family: $font;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background-color: #000080;
+  border: none;
+  &:hover {
+    color: #000080;
+    background-color: white;
+  }
 }

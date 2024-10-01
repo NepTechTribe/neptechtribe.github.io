@@ -1,0 +1,15 @@
+.Title{
+    padding: 2rem;
+    text-align: center;
+    &-title{
+        font-size: 1.25rem;
+        font-family: $lobster;
+        color:#000080 ;
+    }
+    &-head{
+        font-size: 2.5rem;
+        color: black;
+        font-family: $font;
+        font-weight: 500;
+    }
+}

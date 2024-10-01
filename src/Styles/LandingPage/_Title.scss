@@ -1,4 +1,14 @@
 Title{
     padding: 1rem;
     text-align: center;
+    &-title{
+        font-size: 1.25rem;
+        font-family: $lobster;
+        color:#000080 ;
+    }
+    &-head{
+        font-size: 2.5rem;
+        color: #36454f;
+        font-family: $font;
+    }
 }

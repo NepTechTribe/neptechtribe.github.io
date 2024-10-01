@@ -40,7 +40,7 @@
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(60, 55, 94, 0.7019607843), rgba(70, 63, 111, 0.7019607843)), url(/herobg.png);
+  background: linear-gradient(rgba(60, 55, 94, 0.7019607843), rgba(70, 63, 111, 0.7019607843)), url(../../../public/herobg.png);
   background-size: cover;
   background-position: center;
   color: #fff;

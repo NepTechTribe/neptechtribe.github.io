@@ -1,5 +1,5 @@
-Title{
-    padding: 1rem;
+.Title{
+    padding: 2rem;
     text-align: center;
     &-title{
         font-size: 1.25rem;
@@ -8,7 +8,8 @@ Title{
     }
     &-head{
         font-size: 2.5rem;
-        color: #36454f;
+        color: black;
         font-family: $font;
+        font-weight: 500;
     }
 }

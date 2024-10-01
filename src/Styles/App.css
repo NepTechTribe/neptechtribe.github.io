@@ -84,4 +84,20 @@
   text-align: center;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
+}
+
+.Title {
+  padding: 2rem;
+  text-align: center;
+}
+.Title-title {
+  font-size: 1.25rem;
+  font-family: "Lobster Two", sans-serif;
+  color: #000080;
+}
+.Title-head {
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }/*# sourceMappingURL=App.css.map */

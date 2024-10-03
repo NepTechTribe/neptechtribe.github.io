@@ -1,6 +1,7 @@
 import Navbar from "../Components/landingpage/Navbar";
 import Hero from "../Components/landingpage/hero";
 import AboutUs from "../Components/landingpage/about";
+import Programs from "../Components/landingpage/programs";
 
 function LandingPage(){
     return(
@@ -8,6 +9,7 @@ function LandingPage(){
         <Navbar/>
         <Hero/>
         <AboutUs/>
+        <Programs/>
         </>
     )
 }

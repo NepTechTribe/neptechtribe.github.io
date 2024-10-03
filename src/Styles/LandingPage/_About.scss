@@ -1,0 +1,44 @@
+.About{
+    padding-bottom: 3rem;
+    &-row1{
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        &__col1{
+            display: flex;
+            justify-content: center;
+        }
+        &__col2{
+            &__introduction
+            {
+            @extend .Head-description;
+            text-align: left;
+            margin-bottom: 2rem;
+            }
+        }
+    }
+    &-MissionVision{
+        padding: 0.75rem 0rem;
+        font-family: $font;
+        font-style: italic;
+    &__head{
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #000080;
+    }
+    &__description{
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
+&-values{
+    @extend .About-MissionVision__head;
+    text-align: center;
+    color: #000080;
+    &__title{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+}

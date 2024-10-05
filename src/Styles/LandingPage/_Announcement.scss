@@ -1,0 +1,21 @@
+.Announcement{
+    &-individual{
+        padding: 1.5rem;
+        overflow: hidden;
+        &__image{
+            height: 18rem;
+            border-radius: 1rem;
+        }
+        &__title{
+          @extend .About-MissionVision__head;
+          text-transform: capitalize;  
+          font-size: 1rem;
+        }
+        &__date{
+            @extend .About-values__title;
+        }
+        &__venue{
+            @extend .About-MissionVision__description;
+        }
+    }
+}

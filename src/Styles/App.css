@@ -42,7 +42,7 @@
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(60, 55, 94, 0.7019607843), rgba(70, 63, 111, 0.7019607843)), url(../../../public/herobg.png);
+  background: linear-gradient(rgba(60, 55, 94, 0.7019607843), rgba(70, 63, 111, 0.7019607843)), url(/herobg.png);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -56,7 +56,7 @@
   justify-content: center;
 }
 
-.herobutton {
+.herobutton, .eventbutton {
   height: 3rem;
   padding: 0.5rem 1rem;
   text-align: center;
@@ -67,9 +67,17 @@
   background-color: #000080;
   border: none;
 }
-.herobutton:hover {
+.herobutton:hover, .eventbutton:hover {
   color: #000080;
   background-color: white;
+}
+
+.eventbutton {
+  padding: 0rem;
+  background-color: transparent;
+  color: black;
+  font-weight: 400;
+  height: 1rem;
 }
 
 .Head {
@@ -125,12 +133,12 @@
   font-family: "Poppins", sans-serif;
   font-style: italic;
 }
-.About-MissionVision__head, .About-values {
+.About-MissionVision__head, .Announcement-individual__title, .About-values {
   font-size: 1.25rem;
   font-weight: 500;
   color: #000080;
 }
-.About-MissionVision__description {
+.About-MissionVision__description, .Announcement-individual__venue {
   font-size: 15px;
   font-weight: 300;
 }
@@ -138,7 +146,7 @@
   text-align: center;
   color: #000080;
 }
-.About-values__title {
+.About-values__title, .Announcement-individual__date {
   font-size: 1rem;
   font-weight: 400;
 }
@@ -146,6 +154,7 @@
 .Program {
   position: relative;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
 .Program:hover .Program-caption {
   opacity: 1;
@@ -172,4 +181,17 @@
 .Program-icons {
   height: 3rem;
   width: 3rem;
+}
+
+.Announcement-individual {
+  padding: 1.5rem;
+  overflow: hidden;
+}
+.Announcement-individual__image {
+  height: 18rem;
+  border-radius: 1rem;
+}
+.Announcement-individual__title {
+  text-transform: capitalize;
+  font-size: 1rem;
 }/*# sourceMappingURL=App.css.map */

@@ -3,6 +3,7 @@ import Hero from "../Components/landingpage/hero";
 import AboutUs from "../Components/landingpage/about";
 import Programs from "../Components/landingpage/programs";
 import Announcement from "../Components/landingpage/announcement";
+import PastEvent from "../Components/landingpage/pastevent";
 
 function LandingPage(){
     return(
@@ -12,6 +13,7 @@ function LandingPage(){
         <AboutUs/>
         <Programs/>
         <Announcement/>
+        <PastEvent/>
         </>
     )
 }

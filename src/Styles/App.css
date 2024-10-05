@@ -73,11 +73,14 @@
 }
 
 .eventbutton {
-  padding: 0rem;
+  padding: 0.5rem 0.5rem;
   background-color: transparent;
   color: black;
   font-weight: 400;
-  height: 1rem;
+  height: 3rem;
+}
+.eventbutton:hover {
+  border: 1px solid #000080;
 }
 
 .Head {

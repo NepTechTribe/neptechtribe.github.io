@@ -18,3 +18,13 @@
     background-color: white;
   }
 }
+
+
+.eventbutton{
+  @extend .herobutton;
+  padding: 0rem;
+  background-color: transparent;
+  color: black;
+  font-weight: 400;
+  height: 1rem;
+}

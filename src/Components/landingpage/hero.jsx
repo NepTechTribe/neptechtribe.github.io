@@ -18,7 +18,7 @@ function Hero() {
             head={"Leaders are those who empower others"}
             description={description}
           />
-          <Button buttontext={"Explore More"} buttonclass={"herobutton"} />
+          <Button buttontext={"Explore More"} buttonclass={"herobutton"} buttoncontainer={"Button-container"} />
         </div>
       </div>
       </>

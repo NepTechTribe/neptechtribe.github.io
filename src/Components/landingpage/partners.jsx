@@ -36,7 +36,7 @@ function Partners() {
         <Carousel>
           {carouselItems.map((seq, index) => (
             <Carousel.Item key={index}>
-              <Row>
+              <Row >
                 {seq.map((imgIndex, i) => (
                   <Col key={i} className="Partners-col">
                     <img

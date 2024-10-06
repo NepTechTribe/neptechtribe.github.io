@@ -4,6 +4,7 @@ import AboutUs from "../Components/landingpage/about";
 import Programs from "../Components/landingpage/programs";
 import Announcement from "../Components/landingpage/announcement";
 import PastEvent from "../Components/landingpage/pastevent";
+import Partners from "../Components/landingpage/partners";
 
 function LandingPage(){
     return(
@@ -14,6 +15,7 @@ function LandingPage(){
         <Programs/>
         <Announcement/>
         <PastEvent/>
+        <Partners/>
         </>
     )
 }

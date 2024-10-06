@@ -5,6 +5,7 @@ import Programs from "../Components/landingpage/programs";
 import Announcement from "../Components/landingpage/announcement";
 import PastEvent from "../Components/landingpage/pastevent";
 import Partners from "../Components/landingpage/partners";
+import Testimonials from "../Components/landingpage/Testimonials";
 
 function LandingPage(){
     return(
@@ -16,6 +17,7 @@ function LandingPage(){
         <Announcement/>
         <PastEvent/>
         <Partners/>
+        <Testimonials/>
         </>
     )
 }

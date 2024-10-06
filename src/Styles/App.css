@@ -106,12 +106,14 @@
   font-size: 1.25rem;
   font-family: "Lobster Two", sans-serif;
   color: #000080;
+  text-transform: uppercase;
 }
 .Title-head {
   font-size: 2.5rem;
   color: black;
   font-family: "Lato", sans-serif;
   font-weight: 500;
+  text-transform: capitalize;
 }
 
 .About {
@@ -222,4 +224,92 @@
 .Partners-col__image {
   height: 10rem;
   width: 10rem;
+}
+
+.Testimonials {
+  background-color: white;
+}
+.Testimonials-item {
+  background-color: white;
+}
+.Testimonials-row {
+  display: flex;
+  justify-content: space-between;
+}
+.Testimonials-individual {
+  width: 37rem;
+  height: 22rem;
+  padding: 2rem;
+  background-color: #e0e0f2;
+  align-items: center;
+}
+.Testimonials-individual__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.Testimonials-individual__head2 {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.Testimonials-individual__image {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.Testimonials-individual__name {
+  font-size: 1.625rem;
+  font-family: "Poppins", sans-serif;
+}
+.Testimonials-individual__post {
+  text-transform: capitalize;
+  font-weight: 400;
+  color: black;
+}
+.Testimonials-individual__icon {
+  transform: rotateY(180deg);
+  height: 5rem;
+  width: 5rem;
+  color: black;
+}
+.Testimonials-individual__desc {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Testimonials .carousel-control-prev,
+.Testimonials .carousel-control-next {
+  display: none;
+}
+.Testimonials .carousel-indicators button {
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border: 1px solid #000080;
+}
+.Testimonials .carousel-indicators button.active {
+  background-color: #000080;
+}
+
+@media screen and (max-width: 575px) {
+  .Testimonials {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .Testimonials-individual {
+    width: 100%;
+    height: 30rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+  .Testimonials {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .Testimonials-individual {
+    width: 48%;
+    height: auto;
+  }
 }/*# sourceMappingURL=App.css.map */

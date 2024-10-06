@@ -1,0 +1,28 @@
+.Partners .carousel-indicators button{
+    display: none;
+  
+}
+
+.Partners 
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+
+
+.Partners{
+    padding: 2rem 0rem;
+        background-color: #e0e0f2 ;
+        display: flex;
+        justify-content: center;
+    &-col{
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        justify-content: center;
+        &__image{
+            height: 10rem;
+            width: 10rem;  
+        }
+    }
+}

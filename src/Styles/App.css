@@ -197,4 +197,29 @@
 .Announcement-individual__title {
   text-transform: capitalize;
   font-size: 1rem;
+}
+.Partners .carousel-indicators button {
+  display: none;
+}
+
+.Partners .carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.Partners {
+  padding: 2rem 0rem;
+  background-color: #e0e0f2;
+  display: flex;
+  justify-content: center;
+}
+.Partners-col {
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+}
+.Partners-col__image {
+  height: 10rem;
+  width: 10rem;
 }/*# sourceMappingURL=App.css.map */

@@ -43,7 +43,7 @@ function PastEvent() {
   const nextItem = () => handleNavigation(itemsToShow);
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center' }}>
+    <div style={{ display: 'flex', alignItems: 'center', padding:'0rem 1rem' }}>
       <button onClick={prevItem} className="herobutton" disabled={currentIndex === 0}>
         <ChevronLeft />
       </button>

@@ -111,7 +111,7 @@
 .Title-head {
   font-size: 2.5rem;
   color: black;
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -315,7 +315,7 @@
 }
 .ContactForm {
   font-family: "Poppins", sans-serif;
-  color: #fefefe;
+  color: white;
   margin-top: 5rem;
   position: relative;
 }
@@ -458,4 +458,14 @@
     height: 2rem;
     width: 2rem;
   }
+}
+.Footer {
+  background-color: #e0e0f2;
+  margin-top: 4rem;
+  padding: 4rem 0rem;
+}
+.Footer-introduction {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  margin-top: 2rem;
 }/*# sourceMappingURL=App.css.map */

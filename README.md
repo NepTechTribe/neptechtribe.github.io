@@ -1,4 +1,4 @@
-<h1>Contribution Needed: Help Us Improve Our Project!</h1>
+ <h1>Contribution Needed: Help Us Improve Our Project!</h1>
     <p>We are currently in the development stage and need your expertise to tackle some key issues. Whether you're a seasoned developer or just getting started, your contributions are invaluable to us. Below are the issues that we need help with:</p>
 
 <div class="issue">

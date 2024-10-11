@@ -37,3 +37,25 @@
   font-size: inherit;
   text-decoration: inherit;
 }
+
+
+.MobileNav-container{
+  display: none;
+}
+
+@media screen  and (max-width:993px){
+  .Navbar-container{
+    display: none;
+  }
+  .MobileNav-container{
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &__icon{
+  height: 2rem;
+  width: 2rem;
+    }
+  }
+}

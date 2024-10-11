@@ -40,6 +40,26 @@
   text-decoration: inherit;
 }
 
+.MobileNav-container {
+  display: none;
+}
+
+@media screen and (max-width: 993px) {
+  .Navbar-container {
+    display: none;
+  }
+  .MobileNav-container {
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .MobileNav-container__icon {
+    height: 2rem;
+    width: 2rem;
+  }
+}
 .hero {
   min-height: 100vh;
   background: linear-gradient(rgba(60, 55, 94, 0.7019607843), rgba(70, 63, 111, 0.7019607843)), url(/herobg.png);
@@ -430,35 +450,6 @@
   margin-top: -5rem;
 }
 
-@media screen and (max-width: 576px) {
-  .ContactForm-form {
-    margin-bottom: 3rem;
-  }
-  .ContactForm-form-inputcontainer {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  .ContactForm-form-input {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 1023px) {
-  .ContactForm-details {
-    margin-top: 2rem;
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    gap: 2.5rem;
-  }
-  .ContactForm-details__section1 {
-    gap: 1rem;
-  }
-  .ContactForm-details__icon {
-    height: 2rem;
-    width: 2rem;
-  }
-}
 .Footer {
   background-color: #e0e0f2;
   margin-top: 4rem;

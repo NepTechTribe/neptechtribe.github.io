@@ -462,7 +462,7 @@
 .Footer {
   background-color: #e0e0f2;
   margin-top: 4rem;
-  padding: 4rem 0rem;
+  padding: 2rem 0rem;
 }
 .Footer-col1__introduction {
   font-family: "Poppins", sans-serif;
@@ -488,4 +488,28 @@
   opacity: 0.7;
   height: 1.5rem;
   width: 1.55rem;
+}
+.Footer-col2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 1.5rem;
+}
+.Footer-col2__head {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.Footer-col2__data {
+  font-size: 0.9375rem;
+}
+.Footer-col2__data:hover {
+  text-decoration: underline;
+  color: #000080;
+}
+.Footer-copyright {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  text-align: center;
+  padding-top: 2rem;
 }/*# sourceMappingURL=App.css.map */

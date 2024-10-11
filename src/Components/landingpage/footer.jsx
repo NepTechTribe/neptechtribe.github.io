@@ -20,7 +20,7 @@ function Footer() {
   return (
     <div className="Footer">
       <Container>
-        <Row style={{ justifyItems: "center" }}>
+        <Row style={{ justifyItems: "center" , paddingTop:'2rem', paddingBottom:'2rem'}}>
           <Col md={3}>
             <img
               src={fullogo}
@@ -50,29 +50,36 @@ function Footer() {
                 </button>
               </div>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="Footer-col2">
             <dl>
-              <dt>Explore </dt>
-              <dd>About Us</dd>
-              <dd>Our Team</dd>
-              <dd>Blog</dd>
-              <dd>FAQ</dd>
+              <dt className="Footer-col2__head">Explore </dt>
+              <dd className="Footer-col2__data">About Us</dd>
+              <dd className="Footer-col2__data">Our Team</dd>
+              <dd className="Footer-col2__data">Blogs</dd>
+              <dd className="Footer-col2__data">FAQ</dd>
             </dl>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="Footer-col2">
             <dl>
-              <dt> Services</dt>
-              <dd>Events</dd>
-              <dd>Hackathons</dd>
-              <dd>Bootcamps</dd>
+              <dt className="Footer-col2__head"> Services</dt>
+              <dd className="Footer-col2__data">Events</dd>
+              <dd className="Footer-col2__data">Hackathons</dd>
+              <dd className="Footer-col2__data">Bootcamps</dd>
             </dl>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="Footer-col2">
             <dl>
-              <dt>Contact</dt>
-              <dd>982155325</dd>
+              <dt className="Footer-col2__head">Resources</dt>
+              <dd  className="Footer-col2__data">Bsc CSIT</dd>
+              <dd  className="Footer-col2__data">BCA</dd>
+              <dd  className="Footer-col2__data">BIM</dd>
+              <dd  className="Footer-col2__data">BIT</dd>
             </dl>
           </Col>
+        </Row>
+        <hr />
+        <Row className="Footer-copyright" >
+        <p>Copyright 2024 NepTech Tribe All Rights Reserved.</p>
         </Row>
       </Container>
     </div>

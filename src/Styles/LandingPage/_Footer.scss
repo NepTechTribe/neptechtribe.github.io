@@ -1,7 +1,7 @@
 .Footer{
     background-color:  #e0e0f2;
     margin-top: 4rem;
-    padding: 4rem 0rem;
+    padding: 2rem 0rem;
     &-col1{
     &__introduction{
         font-family: $font;
@@ -31,5 +31,29 @@
           }
         }
     }
+}
+&-col2{
+    display: flex;
+    justify-content: center;
+    font-family: $font;
+    padding-top: 1.5rem;
+    &__head{
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+    &__data{
+        font-size: 0.9375rem;
+        &:hover{
+            text-decoration: underline;
+            color: #000080;
+        }
+    }
+}
+&-copyright{
+    font-family: $font;
+    font-size: 0.9375rem;
+    text-align: center;
+    padding-top: 2rem;
 }
 }

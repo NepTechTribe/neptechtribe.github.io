@@ -30,3 +30,10 @@
     width: 3rem;
   }
 }
+
+@media screen and (max-width:768px) {
+  .Program{
+    display: flex;
+    justify-content: center;
+  }
+}

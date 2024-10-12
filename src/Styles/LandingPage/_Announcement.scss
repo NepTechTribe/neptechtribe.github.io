@@ -18,4 +18,22 @@
             @extend .About-MissionVision__description;
         }
     }
+    &-row2{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        &__button{
+            @extend .herobutton;
+        }
+    }
+}
+
+.Announcement-row2{
+    display: none;
+}
+
+@media screen and (max-width:993px) {
+    .Announcement-row2{
+        display: flex;
+    } 
 }

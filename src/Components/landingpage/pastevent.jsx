@@ -19,53 +19,80 @@ function PastEvent() {
     { title: "event title 8", image: eventimg },
   ];
 
+
+
   const [currentIndex, setCurrentIndex] = useState(0);
-  const itemsToShow = 4; 
+  const [itemsToShow, setItemsToShow] = useState(4); 
 
-  const getVisibleItems = () => {
-    return Array.from({ length: itemsToShow }, (_, i) => {
-      const index = (currentIndex + i) % PastEventArray.length;
-      return PastEventArray[index];
-    });
+  const totalItems =  PastEventArray.length;
+
+
+  useEffect(() => {
+    const handleResize = () => {
+      const screenWidth = window.innerWidth;
+      if (screenWidth < 576) {
+        setItemsToShow(1);
+      } else if (screenWidth < 992) {
+        setItemsToShow(2);
+      }else if (screenWidth < 1280) {
+        setItemsToShow(3);
+      }
+       else {
+        setItemsToShow(4);
+      }
+    };
+
+    handleResize(); 
+    window.addEventListener('resize', handleResize); 
+
+    return () => window.removeEventListener('resize', handleResize); 
+  }, []);
+
+  const nextItem = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + itemsToShow) % totalItems);
   };
 
-  const handleNavigation = (direction) => {
-    setCurrentIndex((prevIndex) => {
-      const newIndex = (prevIndex + direction + PastEventArray.length) % PastEventArray.length;
-      return newIndex;
-    });
+  const prevItem = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - itemsToShow + totalItems) % totalItems);
   };
 
-  
-  const visibleItems = getVisibleItems();
-
-  const prevItem = () => handleNavigation(-itemsToShow);
-  const nextItem = () => handleNavigation(itemsToShow);
+  const itemsToDisplay = [];
+  for (let i = 0; i < itemsToShow; i++) {
+    itemsToDisplay.push(PastEventArray[(currentIndex + i) % totalItems]);
+  }
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center', padding:'0rem 1rem' }}>
-      <button onClick={prevItem} className="herobutton" disabled={currentIndex === 0}>
-        <ChevronLeft />
-      </button>
-      <Container>
-        <Title title={"GALLERY"} head={"Sneak Peek From Past Events"} />
+    <>
+      <Container className="Announcement">
+        <Title title={"ANNOUNCEMENTS"} head={"Our Upcoming Events"} />
         <Row>
-          {visibleItems.map((item, index) => (
-            <Col md={3} key={index} className="Announcement-individual">
+          {itemsToDisplay.map((item, index) => (
+            <Col  key={index} className="Announcement-individual">
               <img src={item.image} className="Announcement-individual__image" alt={`image of ${item.title}`} />
-              <div style={{ padding: '1rem 0rem' }}>
-                <h2 className="Announcement-individual__title">{item.title}</h2>
+              <div style={{padding:'1rem 0rem'}}>
+              <h2 className="Announcement-individual__title">{item.title}</h2>
               </div>
               <Button buttontext={"View More"} buttonclass={"eventbutton"} />
             </Col>
           ))}
         </Row>
-      </Container>
-      <button onClick={nextItem} className="herobutton" disabled={currentIndex + itemsToShow >= PastEventArray.length}>
+        <Row>
+        <div className="Announcement-row2">
+        <button onClick={prevItem} className="Announcement-row2__button">
+        <ChevronLeft />
+      </button>
+      <button onClick={nextItem} className="Announcement-row2__button" >
         <ChevronRight />
       </button>
-    </div>
+        </div>
+        </Row>
+      </Container>
+    </>
   );
 }
 
+
 export default PastEvent;
+
+
+ 

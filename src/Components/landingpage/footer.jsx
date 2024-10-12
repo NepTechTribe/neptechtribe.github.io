@@ -2,14 +2,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import fullogo from "../../assets/LandingPage/logo.png";
 import {
     Facebook,
-    Twitter,
     Linkedin,
-    TelephoneFill,
-    GeoAltFill,
     EnvelopeFill,
-    Envelope,
     Youtube,
   } from "react-bootstrap-icons";
+  import { Link } from "react-router-dom";
 
 
 
@@ -52,28 +49,28 @@ function Footer() {
           </Col>
           <Col md={3} className="Footer-col2">
             <dl>
-              <dt className="Footer-col2__head">Explore </dt>
-              <dd className="Footer-col2__data">About Us</dd>
-              <dd className="Footer-col2__data">Our Team</dd>
-              <dd className="Footer-col2__data">Blogs</dd>
-              <dd className="Footer-col2__data">FAQ</dd>
+              <dt className="Footer-col2__head">  Explore </dt>
+              <dd className="Footer-col2__data"> <Link to='/about' className="link-default"> About Us </Link></dd>
+              <dd className="Footer-col2__data"><Link to='/team' className="link-default"> Our Team </Link></dd>
+              <dd className="Footer-col2__data"><Link to='/blog' className="link-default"> Blogs</Link></dd>
+              <dd className="Footer-col2__data"><Link to='/faq' className="link-default"> FAQ </Link></dd>
             </dl>
           </Col>
           <Col md={3} className="Footer-col2">
             <dl>
               <dt className="Footer-col2__head"> Services</dt>
-              <dd className="Footer-col2__data">Events</dd>
-              <dd className="Footer-col2__data">Hackathons</dd>
-              <dd className="Footer-col2__data">Bootcamps</dd>
+              <dd className="Footer-col2__data"><Link to='/events' className="link-default"> Events </Link></dd>
+              <dd className="Footer-col2__data"><Link to='/hackathon' className="link-default"> Hackathons </Link></dd>
+              <dd className="Footer-col2__data"><Link to='/bootcamp' className="link-default"> Bootcamps </Link></dd>
             </dl>
           </Col>
           <Col md={3} className="Footer-col2">
             <dl>
               <dt className="Footer-col2__head">Resources</dt>
-              <dd  className="Footer-col2__data">Bsc CSIT</dd>
-              <dd  className="Footer-col2__data">BCA</dd>
-              <dd  className="Footer-col2__data">BIM</dd>
-              <dd  className="Footer-col2__data">BIT</dd>
+              <dd  className="Footer-col2__data"><Link to='/csit' className="link-default"> Bsc CSIT </Link></dd>
+              <dd  className="Footer-col2__data"><Link to='/bca' className="link-default"> BCA </Link></dd>
+              <dd  className="Footer-col2__data"><Link to='/bim' className="link-default"> BIM </Link></dd>
+              <dd  className="Footer-col2__data"><Link to='/bit' className="link-default"> BIT </Link></dd>
             </dl>
           </Col>
         </Row>

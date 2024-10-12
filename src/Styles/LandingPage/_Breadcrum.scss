@@ -1,0 +1,59 @@
+.Breadcrum{
+@extend .hero;
+font-family: $font;
+&-col11 {
+    bottom: 0rem;
+    & h1 {
+        margin-top: 10rem;
+      @extend .Head;
+      text-align: start;
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+  &-container {
+    display: flex;
+    gap: 0.75rem;
+    &link {
+      display: flex;
+      gap: 0.5rem;
+      &:hover {
+        .Breadcrum-container__icon {
+          color:#e0e0f2;
+        }
+        .Breadcrum-containerlink__home {
+          color: #e0e0f2;
+        }
+      }
+      &__home {
+        @extend .Head-description;
+        text-transform: capitalize;
+      }
+      &__pagehead {
+        @extend .Breadcrum-containerlink__home;
+        color: #e0e0f2;
+      }
+    }
+    &__icon {
+      color: white;
+      font-size: 1.5rem;
+    }
+  }
+  &-footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    & h3{
+        font-size: 2.25rem;
+        color:  #e0e0f2;
+        text-transform: capitalize;
+        font-weight: 400;
+          }
+          & p{
+            font-size: 1.125rem;
+            color:  #e0e0f2;
+            text-transform: capitalize;
+            font-weight: 300;
+          }
+  }
+}

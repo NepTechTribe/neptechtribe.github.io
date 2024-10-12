@@ -3,6 +3,12 @@ import fullogo from "../../assets/LandingPage/logo.png";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import { List } from "react-bootstrap-icons";
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import MobileNavList from "./mobilenavlist";
+
+
+
+
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
 
@@ -14,6 +20,13 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <>
@@ -63,11 +76,18 @@ const Navbar = () => {
               />
             </div>
             <div>
-              <List className="MobileNav-container__icon" />
+              <List onClick={handleShow} className="MobileNav-container__icon" />
             </div>
           </div>
         </Container>
       </nav>
+      <Offcanvas show={show} onHide={handleClose} placement="end" className="MobileNav-canvas">
+        <Offcanvas.Header closeButton>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+         <MobileNavList/>
+        </Offcanvas.Body>
+      </Offcanvas>
     </>
   );
 };

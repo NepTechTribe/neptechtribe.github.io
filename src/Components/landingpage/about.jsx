@@ -38,10 +38,10 @@ function AboutUs() {
       <Container className="About">
         <Title title={"About NEPTECH Tribe"} head={"Who Are We "} />
         <Row className="About-row1">
-          <Col md={6} className="About-row1__col1">
+          <Col lg={6} md={12} className="About-row1__col1">
             <img src={img} alt="About Image" />
           </Col>
-          <Col md={6} className="About-row1__col2">
+          <Col lg={6} md={12}  className="About-row1__col2">
             <p className="About-row1__col2__introduction">
               <b> NepTech Tribe </b> is a non-profit organization that unites
               tech enthusiasts of all ages to share knowledge and foster

@@ -42,3 +42,19 @@
     }
 }
 }
+
+@media screen and (max-width:993px) {
+    .About{
+        &-row1{
+            &__col1{
+                margin-bottom: 2rem;
+            }
+            &__col2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

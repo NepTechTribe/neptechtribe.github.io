@@ -182,6 +182,17 @@
   font-weight: 400;
 }
 
+@media screen and (max-width: 993px) {
+  .About-row1__col1 {
+    margin-bottom: 2rem;
+  }
+  .About-row1__col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .Program {
   position: relative;
   overflow: hidden;

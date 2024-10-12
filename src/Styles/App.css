@@ -66,7 +66,7 @@
   width: 100%;
 }
 
-.hero {
+.hero, .Breadcrum {
   min-height: 100vh;
   background: linear-gradient(rgba(60, 55, 94, 0.7019607843), rgba(70, 63, 111, 0.7019607843)), url(/herobg.png);
   background-size: cover;
@@ -109,7 +109,7 @@
   border: 1px solid #000080;
 }
 
-.Head {
+.Head, .Breadcrum-col11 h1 {
   text-align: center;
   color: white;
 }
@@ -118,7 +118,7 @@
   font-size: 2.5rem;
   font-family: "Poppins", sans-serif;
 }
-.Head-description, .About-row1__col2__introduction {
+.Head-description, .Breadcrum-containerlink__home, .Breadcrum-containerlink__pagehead, .About-row1__col2__introduction {
   text-align: center;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
@@ -343,6 +343,7 @@
   font-family: "Poppins", sans-serif;
   color: white;
   margin-top: 5rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 .ContactForm-form {
@@ -458,7 +459,6 @@
 
 .Footer {
   background-color: #e0e0f2;
-  margin-top: 4rem;
   padding: 2rem 0rem;
 }
 .Footer-col1__introduction {
@@ -517,4 +517,58 @@
 .MobileNavList-item:hover {
   color: #000080;
   text-decoration: underline;
+}
+
+.Breadcrum {
+  font-family: "Poppins", sans-serif;
+}
+.Breadcrum-col11 {
+  bottom: 0rem;
+}
+.Breadcrum-col11 h1 {
+  margin-top: 10rem;
+  text-align: start;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+.Breadcrum-container {
+  display: flex;
+  gap: 0.75rem;
+}
+.Breadcrum-containerlink {
+  display: flex;
+  gap: 0.5rem;
+}
+.Breadcrum-containerlink:hover .Breadcrum-container__icon {
+  color: #e0e0f2;
+}
+.Breadcrum-containerlink:hover .Breadcrum-containerlink__home, .Breadcrum-containerlink:hover .Breadcrum-containerlink__pagehead {
+  color: #e0e0f2;
+}
+.Breadcrum-containerlink__home, .Breadcrum-containerlink__pagehead {
+  text-transform: capitalize;
+}
+.Breadcrum-containerlink__pagehead {
+  color: #e0e0f2;
+}
+.Breadcrum-container__icon {
+  color: white;
+  font-size: 1.5rem;
+}
+.Breadcrum-footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.Breadcrum-footer h3 {
+  font-size: 2.25rem;
+  color: #e0e0f2;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.Breadcrum-footer p {
+  font-size: 1.125rem;
+  color: #e0e0f2;
+  text-transform: capitalize;
+  font-weight: 300;
 }/*# sourceMappingURL=App.css.map */

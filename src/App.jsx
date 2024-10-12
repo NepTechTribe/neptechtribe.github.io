@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import LandingPage from "./Pages/Landingpage";
+import PageNotFound from "./Pages/pagenotfound";
 
 
 const router = createBrowserRouter(
@@ -14,6 +15,7 @@ const router = createBrowserRouter(
     <Route>
       <Route path="/" element={<LandingPage />} />,
       <Route path="/home" element={<LandingPage />} />,
+      <Route path="*" element={<PageNotFound />} />,
     </Route>
   )
 );

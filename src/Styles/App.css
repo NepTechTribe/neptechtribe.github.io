@@ -82,7 +82,7 @@
   justify-content: center;
 }
 
-.herobutton, .eventbutton {
+.herobutton, .Announcement-row2__button, .eventbutton {
   height: 3rem;
   padding: 0.5rem 1rem;
   text-align: center;
@@ -93,7 +93,7 @@
   background-color: #000080;
   border: none;
 }
-.herobutton:hover, .eventbutton:hover {
+.herobutton:hover, .Announcement-row2__button:hover, .eventbutton:hover {
   color: #000080;
   background-color: white;
 }
@@ -225,6 +225,12 @@
   width: 3rem;
 }
 
+@media screen and (max-width: 768px) {
+  .Program {
+    display: flex;
+    justify-content: center;
+  }
+}
 .Announcement-individual {
   padding: 1.5rem;
   overflow: hidden;
@@ -236,6 +242,20 @@
 .Announcement-individual__title {
   text-transform: capitalize;
   font-size: 1rem;
+}
+.Announcement-row2 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.Announcement-row2 {
+  display: none;
+}
+
+@media screen and (max-width: 993px) {
+  .Announcement-row2 {
+    display: flex;
+  }
 }
 .Partners .carousel-indicators button {
   display: none;

@@ -35,7 +35,7 @@ const ProgramArray = [
         <Title title={"Our Programs"} head={"What We Offer"} />
         <Row>
             {ProgramArray.map((program , index) => (
-                <Col md={4} className="Program">
+                <Col lg={4} md={6} sm={12} className="Program">
                     <img src={program.image} alt="Image for program" />
                     <div className="Program-caption">
                     {program.icon && <program.icon className="Program-icons"/>}

@@ -1,0 +1,9 @@
+.MobileNavList{
+    font-family: $font;
+   &-item{
+    &:hover{
+        color: #000080;
+        text-decoration: underline;
+    }
+   }
+}

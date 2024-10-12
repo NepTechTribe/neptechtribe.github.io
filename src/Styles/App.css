@@ -60,6 +60,12 @@
     width: 2rem;
   }
 }
+.MobileNav-canvas {
+  height: 40%;
+  margin-top: 5rem;
+  width: 100%;
+}
+
 .hero {
   min-height: 100vh;
   background: linear-gradient(rgba(60, 55, 94, 0.7019607843), rgba(70, 63, 111, 0.7019607843)), url(/herobg.png);
@@ -503,4 +509,12 @@
   font-size: 0.9375rem;
   text-align: center;
   padding-top: 2rem;
+}
+
+.MobileNavList {
+  font-family: "Poppins", sans-serif;
+}
+.MobileNavList-item:hover {
+  color: #000080;
+  text-decoration: underline;
 }/*# sourceMappingURL=App.css.map */

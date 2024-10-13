@@ -357,7 +357,7 @@
   }
   .Testimonials-individual {
     width: 100%;
-    height: 30rem;
+    height: 20rem;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 1024px) {

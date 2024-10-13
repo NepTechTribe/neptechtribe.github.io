@@ -117,37 +117,42 @@
   }
   
   
-  // @media screen  and (max-width:576px) {
-  //   .ContactForm{
-  //     &-form{
-  //       margin-bottom: 3rem;
-  //       &-inputcontainer{
-  //         display: flex;
-  //         flex-direction: column;
-  //         gap: 2rem;
-  //       }
-  //       &-input{
-  //         width: 100%;
-  //       }
-  //     }
-  //   }
-  // }
+  @media screen  and (max-width:576px) {
+    .ContactForm{
+      &-form{
+        margin-bottom: 3rem;
+        &-inputcontainer{
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+        }
+        &-input{
+          width: 100%;
+        }
+      }
+    }
+  }
   
-  // @media screen and (min-width:576px) and (max-width:1023px) {
-  //   .ContactForm{
-  //     &-details{
-  //       margin-top: 2rem;
-  //       padding: 1.5rem;
-  //       display: flex;
-  //       flex-direction: row;
-  //       gap: 2.5rem;
-  //       &__section1{
-  //         gap: 1rem;
-  //       }
-  //       &__icon{
-  //         height: 2rem;
-  //         width: 2rem;
-  //       }
-  //     }
-  //   }
-  // }
+  @media screen and (min-width:576px) and (max-width:1023px) {
+    .ContactForm{
+      &-details{
+        display: none;
+        margin-top: 2rem;
+        padding: 1.5rem;
+        // display: flex;
+        flex-direction: row;
+        gap: 2.5rem;
+        &__section1{
+          gap: 1rem;
+        }
+        &__icon{
+          height: 2rem;
+          width: 2rem;
+        }
+      }
+    }
+
+    .Contact{
+      margin-bottom: 3rem;
+    }
+  }

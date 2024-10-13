@@ -18,7 +18,7 @@ function Footer() {
     <div className="Footer">
       <Container>
         <Row style={{ justifyItems: "center" , paddingTop:'2rem', paddingBottom:'2rem'}}>
-          <Col md={3}>
+          <Col lg={3} md={12}>
             <img
               src={fullogo}
               alt="NepTech Tribe Logo"
@@ -47,7 +47,7 @@ function Footer() {
                 </button>
               </div>
           </Col>
-          <Col md={3} className="Footer-col2">
+          <Col lg={3} md={4} sm={6} xs={6} className="Footer-col2">
             <dl>
               <dt className="Footer-col2__head">  Explore </dt>
               <dd className="Footer-col2__data"> <Link to='/about' className="link-default"> About Us </Link></dd>
@@ -56,7 +56,7 @@ function Footer() {
               <dd className="Footer-col2__data"><Link to='/faq' className="link-default"> FAQ </Link></dd>
             </dl>
           </Col>
-          <Col md={3} className="Footer-col2">
+          <Col lg={3} md={4} sm={6} xs={6} className="Footer-col2">
             <dl>
               <dt className="Footer-col2__head"> Services</dt>
               <dd className="Footer-col2__data"><Link to='/events' className="link-default"> Events </Link></dd>
@@ -64,7 +64,7 @@ function Footer() {
               <dd className="Footer-col2__data"><Link to='/bootcamp' className="link-default"> Bootcamps </Link></dd>
             </dl>
           </Col>
-          <Col md={3} className="Footer-col2">
+          <Col lg={3} md={4} sm={6} xs={6} className="Footer-col2">
             <dl>
               <dt className="Footer-col2__head">Resources</dt>
               <dd  className="Footer-col2__data"><Link to='/csit' className="link-default"> Bsc CSIT </Link></dd>

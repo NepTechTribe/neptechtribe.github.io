@@ -12,7 +12,7 @@ import {
 function Contact(){
     return(
         <>
-        <Container>
+        <Container className="Contact">
             <Title title={"Contact"} head={"Lets get connected"} />
             <Row>
           <Col lg={8} md={12}>

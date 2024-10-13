@@ -28,7 +28,7 @@ function PageNotFound(){
                 <div className="Breadcrum-footer">
             <h3>404 error</h3>
             <p>opps! this page is not found</p>
-            <Button buttontext={"Back to Home"} buttonclass={"herobutton"} buttoncontainer={"Button-container"}/>
+            <Button buttontext={"Back to Home"} buttonclass={"herobutton"} buttoncontainer={"Button-container"} location={"/"}/>
         </div>
                 </Col>
             </Row>

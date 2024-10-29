@@ -4,13 +4,14 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
+  background-color: black;
+  color: white;
   z-index: 100;
   font-family: $font;
   transition: 0.5s;
   &.sticky {
-    background: #212ea0;
-    color: #fff;
+    background: white;
+    color: black;
     top: 0;
   }
   &-container {

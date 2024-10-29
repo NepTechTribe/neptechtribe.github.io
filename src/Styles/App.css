@@ -8,14 +8,15 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
+  background-color: black;
+  color: white;
   z-index: 100;
   font-family: "Poppins", sans-serif;
   transition: 0.5s;
 }
 .Navbar.sticky {
-  background: #212ea0;
-  color: #fff;
+  background: white;
+  color: black;
   top: 0;
 }
 .Navbar-container {
@@ -89,13 +90,13 @@
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 500;
-  color: white;
-  background-color: #000080;
+  color: black;
+  background-color: white;
   border: none;
 }
 .herobutton:hover, .Announcement-row2__button:hover, .eventbutton:hover {
-  color: #000080;
-  background-color: white;
+  color: white;
+  background-color: black;
 }
 
 .eventbutton {
@@ -122,6 +123,7 @@
   text-align: center;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .Title {
@@ -131,12 +133,12 @@
 .Title-title {
   font-size: 1.25rem;
   font-family: "Lobster Two", sans-serif;
-  color: #000080;
+  color: grey;
   text-transform: uppercase;
 }
 .Title-head {
   font-size: 2.5rem;
-  color: black;
+  color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-transform: capitalize;
@@ -167,19 +169,21 @@
 .About-MissionVision__head, .Announcement-individual__title, .About-values {
   font-size: 1.25rem;
   font-weight: 500;
-  color: #000080;
+  color: gray;
 }
 .About-MissionVision__description, .Announcement-individual__venue {
   font-size: 15px;
   font-weight: 300;
+  color: white;
 }
 .About-values {
   text-align: center;
-  color: #000080;
+  color: gray;
 }
 .About-values__title, .Announcement-individual__date {
   font-size: 1rem;
   font-weight: 400;
+  color: white;
 }
 
 @media screen and (max-width: 993px) {

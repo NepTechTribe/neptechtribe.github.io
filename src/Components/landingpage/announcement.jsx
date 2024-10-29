@@ -85,6 +85,7 @@ function Announcement() {
 
   return (
     <>
+    <div style={{backgroundColor:'black'}}>
       <Container className="Announcement">
         <Title title={"ANNOUNCEMENTS"} head={"Our Upcoming Events"} />
         <Row>
@@ -111,6 +112,7 @@ function Announcement() {
         </div>
         </Row>
       </Container>
+      </div>
     </>
   );
 }

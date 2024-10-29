@@ -102,12 +102,12 @@
 .eventbutton {
   padding: 0.5rem 0.5rem;
   background-color: transparent;
-  color: black;
+  color: white;
   font-weight: 400;
   height: 3rem;
 }
 .eventbutton:hover {
-  border: 1px solid #000080;
+  border: 1px solid white;
 }
 
 .Head, .Breadcrum-col11 h1 {
@@ -249,6 +249,13 @@
 .Announcement-individual__title {
   text-transform: capitalize;
   font-size: 1rem;
+  color: white;
+}
+.Announcement-individual__date {
+  color: gray;
+}
+.Announcement-individual__venue {
+  color: gray;
 }
 .Announcement-row2 {
   display: flex;

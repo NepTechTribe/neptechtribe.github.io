@@ -24,10 +24,10 @@
   @extend .herobutton;
   padding: 0.5rem 0.5rem;
   background-color: transparent;
-  color: black;
+  color: white;
   font-weight: 400;
   height: 3rem;
   &:hover{
-    border: 1px solid #000080 ;
+    border: 1px solid white;
   }
 }

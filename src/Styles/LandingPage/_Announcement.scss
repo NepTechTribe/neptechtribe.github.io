@@ -10,12 +10,15 @@
           @extend .About-MissionVision__head;
           text-transform: capitalize;  
           font-size: 1rem;
+          color: white;
         }
         &__date{
             @extend .About-values__title;
+            color: gray;
         }
         &__venue{
             @extend .About-MissionVision__description;
+            color: gray;
         }
     }
     &-row2{

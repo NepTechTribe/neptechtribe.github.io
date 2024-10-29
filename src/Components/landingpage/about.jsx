@@ -35,6 +35,7 @@ function AboutUs() {
 
   return (
     <>
+    <div style={{backgroundColor:'black'}}>
       <Container className="About">
         <Title title={"About NEPTECH Tribe"} head={"Who Are We "} />
         <Row className="About-row1">
@@ -69,6 +70,7 @@ function AboutUs() {
           ))}
         </Row>
       </Container>
+      </div>
     </>
   );
 }

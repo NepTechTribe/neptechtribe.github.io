@@ -25,20 +25,22 @@
     &__head{
         font-size: 1.25rem;
         font-weight: 500;
-        color: #000080;
+        color: gray;
     }
     &__description{
         font-size: 15px;
         font-weight: 300;
+        color: white
     }
 }
 &-values{
     @extend .About-MissionVision__head;
     text-align: center;
-    color: #000080;
+    color: gray;
     &__title{
         font-size: 1rem;
         font-weight: 400;
+        color: white;
     }
 }
 }

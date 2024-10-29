@@ -10,12 +10,12 @@
   font-family: $font;
   font-size: 1rem;
   font-weight: 500;
-  color: white;
-  background-color: #000080;
+  color: black;
+  background-color: white;
   border: none;
   &:hover {
-    color: #000080;
-    background-color: white;
+    color: white;
+    background-color: black;
   }
 }
 

@@ -31,6 +31,7 @@ const ProgramArray = [
 
     return(
         <>
+        <div style={{backgroundColor:'black'}}>
         <Container>
         <Title title={"Our Programs"} head={"What We Offer"} />
         <Row>
@@ -45,6 +46,7 @@ const ProgramArray = [
             ))}
         </Row>
         </Container>
+        </div>
         </>
     )
 }
